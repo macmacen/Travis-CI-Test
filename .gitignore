@@ -57,6 +57,7 @@ Desktop.ini
 *~.nib
 
 build/
+Pods
 
 *.pbxuser
 *.perspective
