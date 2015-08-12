@@ -4,5 +4,4 @@ language: objective-c
 xcode_project: Travis-CI-Test.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Travis-CI-Test
 
-script:
-  - xcodebuild [DEFAULT_OPTIONS] CODE_SIGNING_REQUIRED=NO
+script: xctool -project Travis-CI-Test.xcodeproj -scheme Travis-CI-Test build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
