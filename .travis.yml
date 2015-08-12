@@ -1,3 +1,5 @@
+osx_image: xcode6.4
+
 language: objective-c
 script:
   - xctool -workspace Travis-CI-Test.xcworkspace -scheme Travis-CI-Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
