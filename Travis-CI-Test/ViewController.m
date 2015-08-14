@@ -28,6 +28,8 @@
         make.size.mas_equalTo(CGSizeMake(200, 200));
         make.centerX.equalTo(self.view);
     }];
+    
+    // comment
     // Do any additional setup after loading the view, typically from a nib.
 }
 
